@@ -11,8 +11,6 @@ class HauntedHouse < ActiveRecord::Base
       t.datetime :opening_date
       t.datetime :closing_date
       t.text    :description
-
     end
-
   end
 end
